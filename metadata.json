@@ -1,0 +1,6 @@
+{
+  "name": "Alpha Studio Hub",
+  "description": "Official website for Alpha Studio Hub - Xerox, Photo Studio, and Digital Services Center",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
