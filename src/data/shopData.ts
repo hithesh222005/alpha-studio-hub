@@ -1,7 +1,7 @@
 import { FAQItem, ReviewItem, EstimateItem } from '../types';
 import studioBannerImg from '../assets/images/studio_hub_banner_1786089404340.jpg';
 
-const ownerPortraitUrl = "/owner.jpg.png";
+const ownerPortraitUrl = "/owner.jpg";
 
 export const SHOP_INFO = {
   name: 'Alpha Studio Hub',
@@ -25,7 +25,7 @@ export const SHOP_INFO = {
     name: 'SUMANKUMAR.S',
     title: 'Founder & Managing Director',
     experience: '7+ Years Experience in Digital Printing & e-Gov Services',
-    photoUrl: "/owner.jpg.png",
+    photoUrl: "/owner.jpg",
     quote: "At Alpha Studio Hub, every document, photo, and government application is handled with utmost precision, speed, and genuine respect for your time. Your satisfaction is my personal guarantee.",
     bio: "Hi, I'm Sumankumar S, founder and owner of Alpha Studio Hub! I started this center with a single promise: to give our local community a modern, dependable, and hassle-free destination for all digital, document, photo, and e-governance needs. Whether you need urgent passport photos for an interview, error-free PAN/Aadhaar applications, or high-speed printing for college projects, my team and I are always here to guide you step-by-step."
   },
