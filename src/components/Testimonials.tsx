@@ -20,7 +20,7 @@ export const Testimonials: React.FC = () => {
           </h2>
 
           <p className="text-slate-600 text-base sm:text-lg">
-            See what students, parents, and local business owners have to say about Alpha Studio Hub.
+            See what students, parents, and local business owners have to say about Nexoro.
           </p>
         </div>
 

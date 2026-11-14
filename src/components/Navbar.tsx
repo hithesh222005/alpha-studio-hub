@@ -37,7 +37,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCalculator, onOpenQuickPri
               Open Today: 8:30 AM - 9:30 PM
             </span>
             <span className="text-slate-400">|</span>
-            <span className="text-slate-300">📍 Near Bus Stop, Ponneri / Thiruvallur Region</span>
+            <span className="text-slate-300">📍 G3 Room, Gojan College, Alamadhi, Chennai</span>
           </div>
 
           <div className="flex items-center gap-4">
@@ -77,21 +77,21 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCalculator, onOpenQuickPri
           <a href="#" className="flex items-center gap-3 group">
             <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-red-500 via-purple-600 via-blue-600 to-emerald-500 p-0.5 shadow-md group-hover:scale-105 transition-transform">
               <div className="w-full h-full bg-slate-900 rounded-[10px] flex items-center justify-center text-amber-400 font-outfit font-black text-xl sm:text-2xl">
-                α
+                N
               </div>
             </div>
             
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
                 <span className="font-outfit text-xl sm:text-2xl font-black tracking-tight text-brand-multicolor">
-                  Alpha Studio Hub
+                  Nexoro
                 </span>
                 <span className="bg-amber-400 text-slate-900 font-bold text-[10px] uppercase px-1.5 py-0.5 rounded shadow-xs hidden sm:inline-block">
                   Studio
                 </span>
               </div>
               <span className="text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide">
-                Xerox • Studio • Govt e-Services
+                Printing • Digital • Banking • Academic
               </span>
             </div>
           </a>

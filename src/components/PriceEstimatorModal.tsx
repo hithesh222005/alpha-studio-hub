@@ -28,7 +28,7 @@ export const PriceEstimatorModal: React.FC<PriceEstimatorModalProps> = ({ isOpen
   const grandTotal = bwTotal + colorTotal + passportTotal + spiralTotal + laminationTotal;
 
   const handleSendEstimateToWhatsApp = () => {
-    let summary = `Hello Alpha Studio Hub, I calculated an estimated order cost:\n`;
+    let summary = `Hello Nexoro, I calculated an estimated order cost:\n`;
     if (bwPages > 0) summary += `- B&W Print/Xerox: ${bwPages} pgs x ${bwCopies} copies = ₹${bwTotal}\n`;
     if (colorPages > 0) summary += `- Color Printout: ${colorPages} pgs = ₹${colorTotal}\n`;
     if (passportPhotoSets > 0) summary += `- Passport Photos: ${passportPhotoSets} set(s) (8 photos each) = ₹${passportTotal}\n`;
@@ -52,7 +52,7 @@ export const PriceEstimatorModal: React.FC<PriceEstimatorModalProps> = ({ isOpen
             </div>
             <div>
               <h3 className="font-outfit font-extrabold text-lg text-white">Print & Xerox Cost Estimator</h3>
-              <p className="text-xs text-amber-300">Instant accurate pricing for Alpha Studio Hub</p>
+              <p className="text-xs text-amber-300">Instant accurate pricing for Nexoro</p>
             </div>
           </div>
 

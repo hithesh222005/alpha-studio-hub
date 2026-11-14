@@ -1,33 +1,33 @@
 import { FAQItem, ReviewItem, EstimateItem } from '../types';
-import studioBannerImg from '../assets/images/studio_hub_banner_1786089404340.jpg';
+import studioBannerImg from '../assets/images/nexoro_banner.png';
 
 const ownerPortraitUrl = "/owner.jpg";
 
 export const SHOP_INFO = {
-  name: 'Alpha Studio Hub',
-  tagline: 'Your One-Stop Digital & Print Service Hub',
-  subTagline: 'Professional Xerox, Instant Passport Photos, Govt e-Services, Bill Payments & Travel Ticket Bookings under one roof.',
+  name: 'Nexoro',
+  tagline: 'Your One Stop Service Centre',
+  subTagline: 'Xerox, Colour & B/W Printing, Online & Scanning, AEPS Banking, Academic Projects & Binding, Lamination and much more, all under one roof.',
   phone: '7867076197',
   formattedPhone: '+91 78670 76197',
-  whatsappNumber: '917867076197',
-  whatsappUrl: 'https://wa.me/917867076197?text=Hello%20Alpha%20Studio%20Hub,%20I%20would%20like%20to%20inquire%20about%20your%20services.',
-  email: 'alphastudiohub.sta@gmail.com',
-  instagramHandle: '@alpha_studio_hub',
-  instagramUrl: 'https://instagram.com/alpha_studio_hub',
-  googleMapsUrl: 'https://www.google.com/maps/place/Alpha+Studio+hub/@13.3649567,80.19123,17z/data=!3m1!4b1!4m6!3m5!1s0x3a4d81aad2c5faa9:0x3f249bfb756c2cc8!8m2!3d13.3649567!4d80.19123!16s%2Fg%2F11z9j58n9_?entry=ttu',
-  embedMapUrl: 'https://maps.google.com/maps?q=13.3649567,80.19123&z=17&output=embed',
-  address: 'Alpha Studio Hub, Main Road, Near Bus Stop, Ponneri / Thiruvallur Region, Thiruvallur, Tamil Nadu',
+  whatsappNumber: '+91 7867076197',
+  whatsappUrl: 'https://wa.me/917867076197?text=Hello%20Nexoro,%20I%20would%20like%20to%20inquire%20about%20your%20services.',
+  email: 'nexoro@example.com', // TODO: replace with your real Nexoro email
+  instagramHandle: '@nexoro', // TODO: replace with your real Instagram
+  instagramUrl: 'https://instagram.com/nexoro', // TODO: replace with your real Instagram
+  googleMapsUrl: 'https://www.google.com/maps/search/?api=1&query=Gojan+College+Alamadhi+Redhills+Chennai+600052',
+  embedMapUrl: 'https://maps.google.com/maps?q=Gojan+College+Alamadhi+Redhills+Chennai+600052&z=17&output=embed',
+  address: 'G3 Room, Gojan College, Alamadhi via Redhills, Chennai - 600052',
   hours: [
     { days: 'Monday - Saturday', time: '8:30 AM - 9:30 PM' },
     { days: 'Sunday', time: '9:00 AM - 2:00 PM (Half Day)' },
   ],
   owner: {
-    name: 'SUMANKUMAR.S',
-    title: 'Founder & Managing Director',
+    name: 'Suman Kumar S',
+    title: 'Founder & CEO',
     experience: '7+ Years Experience in Digital Printing & e-Gov Services',
     photoUrl: "/owner.jpg",
-    quote: "At Alpha Studio Hub, every document, photo, and government application is handled with utmost precision, speed, and genuine respect for your time. Your satisfaction is my personal guarantee.",
-    bio: "Hi, I'm Sumankumar S, founder and owner of Alpha Studio Hub! I started this center with a single promise: to give our local community a modern, dependable, and hassle-free destination for all digital, document, photo, and e-governance needs. Whether you need urgent passport photos for an interview, error-free PAN/Aadhaar applications, or high-speed printing for college projects, my team and I are always here to guide you step-by-step."
+    quote: "At Nexoro, every document, photo, and government application is handled with utmost precision, speed, and genuine respect for your time. Your satisfaction is my personal guarantee.",
+    bio: "Hi, I'm Suman Kumar S, founder and CEO of Nexoro! I started this centre with a single promise: to give our local community a modern, dependable, and hassle-free destination for all digital, document, photo, and e-governance needs. Whether you need urgent passport photos for an interview, error-free PAN/Aadhaar applications, or high-speed printing for college projects, my team and I are always here to guide you step-by-step."
   },
   images: {
     heroBanner: studioBannerImg,

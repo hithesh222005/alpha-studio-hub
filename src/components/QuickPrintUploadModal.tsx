@@ -23,7 +23,7 @@ export const QuickPrintUploadModal: React.FC<QuickPrintUploadModalProps> = ({ is
   };
 
   const handleSendToWhatsApp = () => {
-    let msg = `Hello Alpha Studio Hub! I have a document to print:\n`;
+    let msg = `Hello Nexoro! I have a document to print:\n`;
     msg += `📄 File Name: ${selectedFile ? selectedFile.name : 'Will attach in chat'}\n`;
     msg += `🎨 Print Type: ${printType === 'bw' ? 'Black & White' : printType === 'color' ? 'Full Color' : 'Mix B&W + Color'}\n`;
     msg += `📄 Sides: ${paperSide === 'double' ? 'Both Sides (Double sided)' : 'Single Sided'}\n`;
@@ -48,7 +48,7 @@ export const QuickPrintUploadModal: React.FC<QuickPrintUploadModalProps> = ({ is
             </div>
             <div>
               <h3 className="font-outfit font-extrabold text-lg text-white">Send Document for Quick Printing</h3>
-              <p className="text-xs text-blue-300">Fast document transfer to Alpha Studio Hub</p>
+              <p className="text-xs text-blue-300">Fast document transfer to Nexoro</p>
             </div>
           </div>
 

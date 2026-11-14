@@ -26,7 +26,7 @@ export const FaqSection: React.FC = () => {
           </h2>
 
           <p className="text-slate-600 text-base">
-            Everything you need to know about visiting Alpha Studio Hub.
+            Everything you need to know about visiting Nexoro.
           </p>
         </div>
 

@@ -1,23 +1,67 @@
 @import "tailwindcss";
 
+/* NEXORO THEME: black & gold. Overrides Tailwind's palette everywhere at once. */
+@theme {
+  --color-slate-50: #fbf8ee;
+  --color-slate-100: #f3eedc;
+  --color-slate-200: #e5dcbc;
+  --color-slate-300: #d2c593;
+  --color-slate-400: #a89f7a;
+  --color-slate-500: #7d7559;
+  --color-slate-600: #5c5640;
+  --color-slate-700: #3d3a2a;
+  --color-slate-800: #1c1a10;
+  --color-slate-900: #0d0c08;
+  --color-slate-950: #000000;
+
+  --color-amber-100: #fff8d6;
+  --color-amber-200: #ffefa0;
+  --color-amber-300: #ffe066;
+  --color-amber-400: #ffc81a;
+  --color-amber-500: #f0b400;
+  --color-amber-600: #c99200;
+  --color-amber-700: #9e7000;
+  --color-amber-800: #6e4f00;
+  --color-amber-900: #3d2b00;
+
+  --color-emerald-400: #ffd84d;
+  --color-emerald-500: #f5b800;
+  --color-emerald-600: #d19a00;
+  --color-emerald-700: #a67a00;
+
+  --color-blue-50: #fffbeb;
+  --color-blue-100: #fff4c2;
+  --color-blue-300: #ffe066;
+  --color-blue-400: #ffc81a;
+  --color-blue-500: #f0b400;
+  --color-blue-600: #c99200;
+  --color-blue-700: #9e7000;
+  --color-blue-800: #6e4f00;
+
+  --color-red-500: #ffc81a;
+  --color-purple-600: #c99200;
+  --color-pink-200: #fff0b3;
+  --color-pink-400: #ffd84d;
+}
+
 @layer utilities {
   .font-outfit {
     font-family: 'Outfit', sans-serif;
   }
-  
-  /* Brand Multicolor Gradient: red -> purple -> blue -> green */
+
+  /* Brand gold gradient (replaces the old multicolor gradient) */
   .text-brand-multicolor {
-    background: linear-gradient(135deg, #ef4444 0%, #a855f7 35%, #2563eb 70%, #10b981 100%);
+    background: linear-gradient(135deg, #fff3a3 0%, #ffc81a 45%, #b98100 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
 
   .bg-brand-multicolor {
-    background: linear-gradient(135deg, #ef4444 0%, #a855f7 35%, #2563eb 70%, #10b981 100%);
+    background: linear-gradient(135deg, #fff3a3 0%, #ffc81a 45%, #b98100 100%);
   }
 
   .border-brand-multicolor {
-    border-image: linear-gradient(135deg, #ef4444, #a855f7, #2563eb, #10b981) 1;
+    border-image: linear-gradient(135deg, #fff3a3, #ffc81a, #b98100) 1;
   }
 }
 
@@ -26,12 +70,12 @@
   width: 8px;
 }
 ::-webkit-scrollbar-track {
-  background: #f1f5f9;
+  background: #fbf8ee;
 }
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
+  background: #e5c35a;
   border-radius: 4px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: #ffc81a;
 }

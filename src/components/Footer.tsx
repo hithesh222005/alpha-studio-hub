@@ -19,22 +19,22 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCalculator, onOpenQuickPri
             <a href="#" className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-500 via-purple-600 to-emerald-500 p-0.5 shadow-md">
                 <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center text-amber-400 font-outfit font-black text-xl">
-                  α
+                  N
                 </div>
               </div>
               <span className="font-outfit text-2xl font-black text-brand-multicolor">
-                Alpha Studio Hub
+                Nexoro
               </span>
             </a>
 
             <p className="text-slate-400 text-sm leading-relaxed max-w-sm">
-              Your trusted local digital, printing, Xerox, photo studio, and government e-Sevai services center in Ponneri & Thiruvallur region.
+              Your one stop service centre for printing, digital services, banking, academic projects and lamination, at Gojan College, Chennai.
             </p>
 
             <div className="text-xs text-slate-300 font-medium space-y-1 bg-slate-900/80 p-3 rounded-xl border border-slate-800 inline-block">
               <div className="text-amber-400 font-bold flex items-center gap-1.5">
                 <DynamicIcon name="UserCheck" className="w-3.5 h-3.5" />
-                Owner: SUMANKUMAR.S
+                Founder & CEO: Suman Kumar S
               </div>
               <a 
                 href={`mailto:${SHOP_INFO.email}`} 
@@ -43,6 +43,14 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCalculator, onOpenQuickPri
                 <DynamicIcon name="Mail" className="w-3.5 h-3.5 text-blue-400 shrink-0" />
                 <span>{SHOP_INFO.email}</span>
               </a>
+            </div>
+
+            <div className="flex items-center gap-3 pt-2">
+              <img src="/nexoro_upi_qr.png" alt="Nexoro UPI QR code" className="w-16 h-16 rounded-lg bg-white p-1 object-contain" />
+              <div className="text-xs text-slate-300">
+                <div className="font-bold text-amber-300">Pay via UPI</div>
+                <div className="break-all">7867076197@nyes</div>
+              </div>
             </div>
 
             <div className="flex items-center gap-3 pt-2">
@@ -112,7 +120,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCalculator, onOpenQuickPri
           <div>
             <h3 className="font-outfit font-bold text-white text-sm uppercase tracking-wider mb-4">Core Services</h3>
             <ul className="space-y-2.5 text-xs">
-              <li>Passport Photos (5 Min Print)</li>
+              <li>Passport Photos</li>
               <li>Xerox (B&W & Color)</li>
               <li>Spiral Binding & Lamination</li>
               <li>TNeGA e-Sevai Applications</li>
@@ -144,13 +152,13 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCalculator, onOpenQuickPri
         {/* Bottom Credits Line */}
         <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            © {new Date().getFullYear()} <span className="text-white font-bold">Alpha Studio Hub</span>. All rights reserved.
+            © {new Date().getFullYear()} <span className="text-white font-bold">Nexoro</span>. All rights reserved.
           </div>
 
           <div className="flex items-center gap-1 text-slate-300 font-medium">
             <span>Made with</span>
             <span className="text-red-500 animate-pulse text-sm">❤️</span>
-            <span>for Alpha Studio Hub</span>
+            <span>for Nexoro</span>
           </div>
         </div>
 

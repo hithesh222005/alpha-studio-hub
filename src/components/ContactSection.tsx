@@ -20,7 +20,7 @@ export const ContactSection: React.FC = () => {
           </h2>
 
           <p className="text-slate-600 text-base sm:text-lg">
-            We are conveniently located on the main road in the Ponneri / Thiruvallur area. Stop by or reach out on phone or WhatsApp!
+            We are located at G3 Room, Gojan College, Alamadhi via Redhills, Chennai. Stop by or reach out on phone or WhatsApp!
           </p>
         </div>
 
@@ -197,7 +197,7 @@ export const ContactSection: React.FC = () => {
               {/* Interactive Google Map iframe */}
               <div className="relative w-full h-[380px] sm:h-[450px] lg:h-[480px] rounded-2xl overflow-hidden bg-slate-800 border border-slate-700">
                 <iframe
-                  title="Alpha Studio Hub Google Map Location"
+                  title="Nexoro Google Map Location"
                   src={SHOP_INFO.embedMapUrl}
                   width="100%"
                   height="100%"
@@ -211,7 +211,7 @@ export const ContactSection: React.FC = () => {
                 {/* Floating Map Marker Overlay Badge */}
                 <div className="absolute bottom-4 left-4 right-4 sm:left-auto sm:right-4 bg-slate-900/90 backdrop-blur-md p-3.5 rounded-2xl border border-slate-700 text-white shadow-xl flex items-center justify-between gap-4 max-w-sm">
                   <div>
-                    <div className="font-outfit font-bold text-sm text-amber-400">Alpha Studio Hub</div>
+                    <div className="font-outfit font-bold text-sm text-amber-400">Nexoro</div>
                     <div className="text-[11px] text-slate-300">13.3649567° N, 80.19123° E</div>
                   </div>
 

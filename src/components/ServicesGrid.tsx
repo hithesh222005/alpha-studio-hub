@@ -29,7 +29,7 @@ export const ServicesGrid: React.FC<ServicesGridProps> = ({ onOpenQuickPrint }) 
 
   const handleWhatsAppInquiry = (service: ServiceItem) => {
     const text = encodeURIComponent(
-      `Hello Alpha Studio Hub! I am interested in your service: "${service.title}". Please share details/pricing.`
+      `Hello Nexoro! I am interested in your service: "${service.title}". Please share details/pricing.`
     );
     window.open(`https://wa.me/${SHOP_INFO.whatsappNumber}?text=${text}`, '_blank');
   };
@@ -46,7 +46,7 @@ export const ServicesGrid: React.FC<ServicesGridProps> = ({ onOpenQuickPrint }) 
           </div>
 
           <h2 className="font-outfit text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight mb-4">
-            Our Services at <span className="text-brand-multicolor">Alpha Studio Hub</span>
+            Our Services at <span className="text-brand-multicolor">Nexoro</span>
           </h2>
 
           <p className="text-slate-600 text-base sm:text-lg">

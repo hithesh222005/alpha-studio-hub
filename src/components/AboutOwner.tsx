@@ -40,7 +40,7 @@ export const AboutOwner: React.FC = () => {
                     <span className="w-2.5 h-2.5 rounded-full bg-emerald-400"></span>
                     <span className="font-outfit font-bold text-base">{owner.name}</span>
                   </div>
-                  <p className="text-xs text-amber-300 font-medium">{owner.title} • Alpha Studio Hub</p>
+                  <p className="text-xs text-amber-300 font-medium">{owner.title} • Nexoro</p>
                 </div>
               </div>
             </div>
@@ -114,7 +114,7 @@ export const AboutOwner: React.FC = () => {
             <div className="p-5 rounded-2xl bg-gradient-to-r from-slate-900 to-slate-800 text-white flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg">
               <div className="flex items-center gap-3">
                 <div className="w-12 h-12 rounded-full bg-amber-400 text-slate-950 font-black text-xl flex items-center justify-center font-outfit">
-                  α
+                  N
                 </div>
                 <div>
                   <div className="font-outfit font-bold text-sm text-amber-300">Have a custom requirement?</div>

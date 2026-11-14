@@ -33,7 +33,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuickPrint, onOp
               className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-800/90 border border-amber-400/30 text-amber-300 text-xs sm:text-sm font-semibold mb-6 shadow-inner"
             >
               <span className="w-2 h-2 rounded-full bg-amber-400 animate-pulse"></span>
-              <span>Ponneri & Thiruvallur's Most Trusted Print & Digital Studio</span>
+              <span>Your One Stop Service Centre in Chennai</span>
               <DynamicIcon name="Award" className="w-4 h-4 text-amber-400" />
             </motion.div>
 
@@ -46,7 +46,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuickPrint, onOp
             >
               <span className="block text-white">Welcome to</span>
               <span className="text-brand-multicolor filter drop-shadow-sm">
-                Alpha Studio Hub
+                Nexoro
               </span>
             </motion.h1>
 
@@ -192,7 +192,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuickPrint, onOp
                   {/* Studio Image */}
                   <img
                     src={SHOP_INFO.images.ownerPortrait}
-                    alt="Owner of Alpha Studio Hub"
+                    alt="Owner of Nexoro"
                     referrerPolicy="no-referrer"
                     className="w-full h-full object-cover object-top filter brightness-105 contrast-105"
                   />
@@ -213,7 +213,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenQuickPrint, onOp
                       <DynamicIcon name="CheckCircle2" className="w-5 h-5 text-blue-400 fill-blue-500/20" />
                     </div>
                     <p className="text-xs text-amber-300 font-medium">
-                      {SHOP_INFO.owner.title} • Alpha Studio Hub
+                      {SHOP_INFO.owner.title} • Nexoro
                     </p>
                   </div>
                 </div>
