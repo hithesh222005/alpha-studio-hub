@@ -9,7 +9,7 @@ export const SHOP_INFO = {
   subTagline: 'Xerox, Colour & B/W Printing, Online & Scanning, AEPS Banking, Academic Projects & Binding, Lamination and much more, all under one roof.',
   phone: '7867076197',
   formattedPhone: '+91 78670 76197',
-  whatsappNumber: '+91 7867076197',
+  whatsappNumber: '917867076197',
   whatsappUrl: 'https://wa.me/917867076197?text=Hello%20Nexoro,%20I%20would%20like%20to%20inquire%20about%20your%20services.',
   email: 'nexoro@example.com', // TODO: replace with your real Nexoro email
   instagramHandle: '@nexoro', // TODO: replace with your real Instagram

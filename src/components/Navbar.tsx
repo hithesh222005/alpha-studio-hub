@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { SHOP_INFO } from '../data/shopData';
 import { DynamicIcon } from './DynamicIcon';
+import nexoroLogo from '../assets/images/nexoro_logo.jpg';
 
 interface NavbarProps {
   onOpenCalculator: () => void;
@@ -74,12 +75,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCalculator, onOpenQuickPri
         <div className="flex items-center justify-between">
           
           {/* Logo & Branding */}
-          <a href="#" className="flex items-center gap-3 group">
-            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-tr from-red-500 via-purple-600 via-blue-600 to-emerald-500 p-0.5 shadow-md group-hover:scale-105 transition-transform">
-              <div className="w-full h-full bg-slate-900 rounded-[10px] flex items-center justify-center text-amber-400 font-outfit font-black text-xl sm:text-2xl">
-                N
-              </div>
-            </div>
+          <a href="#" aria-label="Nexoro home" className="flex items-center gap-3 group">
+            <img
+              src={nexoroLogo}
+              alt=""
+              className="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover object-center ring-2 ring-amber-400 shadow-md group-hover:scale-105 transition-transform"
+            />
             
             <div className="flex flex-col">
               <div className="flex items-center gap-1.5">
@@ -90,7 +91,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenCalculator, onOpenQuickPri
                   Studio
                 </span>
               </div>
-              <span className="text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide">
+              <span className="hidden sm:block text-[11px] sm:text-xs text-slate-500 font-medium tracking-wide">
                 Printing • Digital • Banking • Academic
               </span>
             </div>

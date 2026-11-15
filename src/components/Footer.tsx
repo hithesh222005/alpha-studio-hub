@@ -1,6 +1,7 @@
 import React from 'react';
 import { SHOP_INFO } from '../data/shopData';
 import { DynamicIcon } from './DynamicIcon';
+import nexoroLogo from '../assets/images/nexoro_logo.jpg';
 
 interface FooterProps {
   onOpenCalculator: () => void;
@@ -17,11 +18,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenCalculator, onOpenQuickPri
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
             <a href="#" className="flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-red-500 via-purple-600 to-emerald-500 p-0.5 shadow-md">
-                <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center text-amber-400 font-outfit font-black text-xl">
-                  N
-                </div>
-              </div>
+              <img src={nexoroLogo} alt="" className="w-10 h-10 rounded-full object-cover object-center ring-2 ring-amber-400 shadow-md" />
               <span className="font-outfit text-2xl font-black text-brand-multicolor">
                 Nexoro
               </span>

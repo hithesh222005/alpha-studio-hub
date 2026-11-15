@@ -193,7 +193,7 @@ export const ServicesGrid: React.FC<ServicesGridProps> = ({ onOpenQuickPrint }) 
                       <div className="flex flex-wrap gap-1.5 mb-5">
                         {service.highlights.map((tag, i) => (
                           <span key={i} className="text-[11px] font-medium px-2 py-0.5 rounded-md bg-slate-50 text-slate-600 border border-slate-200/60 flex items-center gap-1">
-                            <DynamicIcon name="CheckCircle2" className="w-3 h-3 text-emerald-500" />
+                            <DynamicIcon name="CheckCircle2" className="w-3 h-3 text-green-600" />
                             {tag}
                           </span>
                         ))}
